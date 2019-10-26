@@ -6,6 +6,7 @@ import quickstart.models as models
 from rest_framework import viewsets
 from .serializers import UserSerializer, GroupSerializer, Oblique3DModelSerializer
 
+import os
 
 class UserViewSet(viewsets.ModelViewSet):
     """
